@@ -16,6 +16,7 @@ Please use these table and field names:
 The campus for each department can be randomly selected and doesn’t have to match reality (e.g., CS could be on CAC, Eng could be on CD, etc.).
 
 3. Create a Java application that allows users to query the database. You should use JDBC to connect to the database. You should support the following queries and operations:
+
 (a) Search students by name. This should match any students where the search string is a substring of either the first or last name (case insensitive).
 
 (b) Search students by year (Fr, So, Ju, Sr), where a student’s year depends on how many credits they’ve completed (with a grade higher than F).
